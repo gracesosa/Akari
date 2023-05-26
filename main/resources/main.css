@@ -1,0 +1,86 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+
+  .hbox {
+     -fx-background-color: #a0f7e8;
+     -fx-padding: 15;
+     -fx-spacing: 10;
+  }
+
+  .vbox {
+     -fx-background-color: rgb(80, 90, 115);
+     -fx-padding: 10;
+     -fx-spacing: 20;
+  }
+
+  .messagebox {
+       -fx-background-color: #a0f7e8;
+       -fx-padding: 15;
+       -fx-spacing: 20;
+    }
+
+    .prevbutton {
+       -fx-border-radius: 5;
+      }
+
+  .nextbutton {
+     -fx-border-radius: 5;
+  }
+
+  .randombutton {
+     -fx-border-radius: 5;
+    }
+
+  .resetbutton {
+      -fx-border-radius: 5;
+  }
+
+  .solvedbutton {
+         -fx-border-radius: 5;
+    }
+
+  .label {
+     -fx-font-size: 10px;
+     -fx-font-weight: bold;
+  }
+
+  .solved {
+       -fx-font-size: 40px;
+       -fx-font-weight: bold;
+    }
+
+.label2 {
+     -fx-font-size: 30px;
+     -fx-font-weight: bold;
+  }
+  .cell {
+             -fx-border-radius: 10;
+             -fx-padding: 6 6 6 6;
+
+    }
+
+    .puzzle {
+               -fx-border-color: rgb(255, 255, 255);
+               -fx-border-radius: 5;
+      }
+
+      .lamp {
+    -fx-background-image: url("light-bulb.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 500 500;
+    -fx-background-position: center center;
+      }
+
+      .yellow {
+      -fx-background-color: rgb(255, 255, 0);
+      }
+
+      .red {
+      -fx-background-color: rgb(255, 0, 0);
+      }
+
